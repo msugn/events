@@ -1,4 +1,4 @@
-
+### use at your own risk, this is a demo script and not intended for production use ###
 $username ='msugFTW:)'
 $securePassword = Read-Host -Prompt 'Enter your password' -AsSecureString
 $clearTextPassword = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($securePassword))
